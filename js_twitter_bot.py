@@ -92,7 +92,7 @@ for tweet in stream:
 				
 				print_tweet(tweet)
 						
-				reply = "@" + username + " Cool beans"
+				reply = "@" + username + " Cool beans, " + username
 				print reply
 			
 				# api.PostUpdate(reply, tweet_id) # Send the tweet 'reply' as a reply to 'tweet_id'
